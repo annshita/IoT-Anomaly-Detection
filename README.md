@@ -70,16 +70,6 @@ Four classical machine learning algorithms were applied on all datasets:
 | Edge-IIoT (Multiclass) | Logistic Regression | 67%    |
 ---
 
-## 📆 Key Observations
-
-* The performance of models varied across datasets.
-* Naive Bayes generally performed well for datasets with discrete categorical features.
-* Decision Tree provided interpretable results but prone to overfitting.
-* SVM often yielded good accuracy but was computationally expensive for large datasets.
-* Logistic Regression performed consistently for well-separated feature spaces.
-
----
-
 ## 💾 Tools & Technologies
 
 * Python 3.x
