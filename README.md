@@ -52,29 +52,22 @@ Four classical machine learning algorithms were applied on all datasets:
 
 | Dataset                | Model               | Accuracy |
 | ---------------------- | ------------------- | -------- |
-| NSL-KDD (Binary)       | Decision Tree       | XX.X%    |
-| NSL-KDD (Binary)       | Naive Bayes         | XX.X%    |
-| NSL-KDD (Binary)       | SVM                 | XX.X%    |
-| NSL-KDD (Binary)       | Logistic Regression | XX.X%    |
-| NSL-KDD (Multiclass)   | Decision Tree       | XX.X%    |
-| NSL-KDD (Multiclass)   | Naive Bayes         | XX.X%    |
-| NSL-KDD (Multiclass)   | SVM                 | XX.X%    |
-| NSL-KDD (Multiclass)   | Logistic Regression | XX.X%    |
-| IoT-23 (Binary)        | Decision Tree       | XX.X%    |
-| IoT-23 (Binary)        | Naive Bayes         | XX.X%    |
-| IoT-23 (Binary)        | SVM                 | XX.X%    |
-| IoT-23 (Binary)        | Logistic Regression | XX.X%    |
-| Edge-IIoT (Binary)     | Decision Tree       | XX.X%    |
-| Edge-IIoT (Binary)     | Naive Bayes         | XX.X%    |
-| Edge-IIoT (Binary)     | SVM                 | XX.X%    |
-| Edge-IIoT (Binary)     | Logistic Regression | XX.X%    |
-| Edge-IIoT (Multiclass) | Decision Tree       | XX.X%    |
-| Edge-IIoT (Multiclass) | Naive Bayes         | XX.X%    |
-| Edge-IIoT (Multiclass) | SVM                 | XX.X%    |
-| Edge-IIoT (Multiclass) | Logistic Regression | XX.X%    |
-
-(*Note: Replace XX.X% with actual accuracy scores after evaluation*)
-
+| NSL-KDD (Binary)       | Decision Tree       | 98%    |
+| NSL-KDD (Binary)       | Naive Bayes         | 90%    |
+| NSL-KDD (Binary)       | SVM                 | 53%    |
+| NSL-KDD (Binary)       | Logistic Regression | 95%    |
+| IoT-23 (Multiclass)    | Decision Tree       | 81%    |
+| IoT-23 (Multiclass)    | Naive Bayes         | 23%    |
+| IoT-23 (Multiclass)    | SVM                 | 54%    |
+| IoT-23 (Multiclass)    | Logistic Regression | 63%    |
+| Edge-IIoT (Binary)     | Decision Tree       | 99%    |
+| Edge-IIoT (Binary)     | Naive Bayes         | 89%    |
+| Edge-IIoT (Binary)     | SVM                 | 91%    |
+| Edge-IIoT (Binary)     | Logistic Regression | 89%    |
+| Edge-IIoT (Multiclass) | Decision Tree       | 92%    |
+| Edge-IIoT (Multiclass) | Naive Bayes         | 50%    |
+| Edge-IIoT (Multiclass) | SVM                 | 29%    |
+| Edge-IIoT (Multiclass) | Logistic Regression | 67%    |
 ---
 
 ## 📆 Key Observations
@@ -122,13 +115,3 @@ python train_nslkdd_multiclass.py
 python train_iot23.py
 python train_edge_iiot.py
 ```
-
----
-
-## 💡 Future Improvements
-
-* Explore ensemble methods (e.g. Random Forest, XGBoost).
-* Apply Deep Learning architectures for feature-rich datasets.
-* Incorporate feature selection techniques to reduce dimensionality.
-* Perform hyperparameter tuning for improved model performance.
-
